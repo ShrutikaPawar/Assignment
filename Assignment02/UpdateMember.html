@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Institute Management Portal</title>
+    </head>
+    <body>
+        <h1>Register New Member</h1>
+
+        <lable for="FullName">Full Name: </lable>
+        <input type="text" name="Fname" id="FullName"><br><br>
+
+        <lable for="Email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</lable>
+        <input type="email" name="email" id="Email"><br><br>
+
+        <lable for="MobNo">Mobile No: </lable>
+        <input type="number" name="MobNo" id="MobNo"><br><br>
+
+        <lable>Gender: </lable>
+        <input type="radio" id="male" name="gender" value="male">
+        <lable for="male">Male</lable>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <lable for="female">Female</lable>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <lable for="other">Other</lable><br><br>
+
+        <lable for="YourAddress">Address: </lable>
+        <textarea name="Address" id="YourAddress" cols="15" rows="3"></textarea><br><br>
+
+        <lable for="Designation">Designation: </lable>
+        <select name="designation" id="Designation">
+           <option>--Select Designation--</option>
+           <option>Principal</option>
+           <option>Teacher</option>
+           <option>Staff</option>
+        </select><br><br>
+        <lable for="Department">Department:</lable>
+        <select name="Department" id="Department">
+            <option>--Select Department--</option>
+            <option>Art</option>
+            <option>Commerce</option>
+            <option>Science</option>
+            <option>Account</option>
+        </select> <br><br>
+        <input type="Button" id="Submit" name="Submit" value="submit">
+        <lable for="Submit"></lable>
+
+        <input type="Button" id="Reset" name="Reset" value="Reset">
+        <lable for="Reset"></lable><br><br>
+    </body>
+</html>
